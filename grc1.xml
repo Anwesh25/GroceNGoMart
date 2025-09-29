@@ -7,7 +7,7 @@
 
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="Com_GNG_TestCases_User.Tc_002_HomePage" />
+			<class name="Com_GNG_TestCases_User.Tc_003_ShopPage" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

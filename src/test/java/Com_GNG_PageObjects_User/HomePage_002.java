@@ -2,6 +2,7 @@ package Com_GNG_PageObjects_User;
 
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage_002 {
 public WebDriver driver;
-	
+	public JavascriptExecutor jse;
 	 public HomePage_002 (WebDriver dr) {
 		
 		this.driver = dr;
@@ -35,11 +36,16 @@ public WebDriver driver;
 
 
 
-	public void homelink() {
+	public void homelink() throws InterruptedException {
+		Thread.sleep(2000);
 		home.click();
+		
 	}
 
 	public void emailtextbox() throws InterruptedException {
+		jse= (JavascriptExecutor)driver;
+		jse.executeScript("window.scrollBy(0, 300);" );
+		
 		text.sendKeys("shaiknoormahammad44@gmail.com");
 		Thread.sleep(2000);
 	}
@@ -47,6 +53,8 @@ public WebDriver driver;
 		btn.click();
 	}
 	public void FeactureCategoryList() throws InterruptedException {
+		jse= (JavascriptExecutor)driver;
+		jse.executeScript("window.scrollBy(0, 600);" );
 		for (WebElement category : categoryList) {
 			System.out.println("Feactured Categories " + category.getText());
 			Thread.sleep(4000);
