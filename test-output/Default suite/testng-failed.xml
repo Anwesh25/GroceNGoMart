@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+
       <class name="Com_GNG_TestCases_User.Tc_001_LoginPage">
         <methods>
           <include name="OpenAppliction"/>
@@ -10,6 +11,7 @@
           <include name="Groc_UserLogin"/>
         </methods>
       </class> <!-- Com_GNG_TestCases_User.Tc_001_LoginPage -->
+
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
