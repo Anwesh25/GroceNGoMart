@@ -1,3 +1,4 @@
+
 2025-09-25 16:24:09,671 [main] INFO GroceNGoMart - Click Account successfully
 2025-09-25 16:24:11,010 [main] INFO GroceNGoMart - Click on login successfully
 2025-09-25 16:24:11,500 [main] INFO GroceNGoMart - username entered Successfully
@@ -233,6 +234,7 @@
 2025-09-29 16:21:05,312 [main] INFO GroceNGoMart - Click select Categorie checkboxes successfully
 2025-09-29 16:21:05,937 [main] INFO GroceNGoMart - Click select Brands checkboxes successfully
 2025-09-29 16:21:06,129 [main] INFO GroceNGoMart - Clear selected successfully
+
 2025-09-30 15:25:25,015 [main] INFO GroceNGoMart - Click Account successfully
 2025-09-30 15:25:26,640 [main] INFO GroceNGoMart - Click on login successfully
 2025-09-30 15:25:27,539 [main] INFO GroceNGoMart - username entered Successfully
@@ -893,3 +895,27 @@
 2025-10-06 14:48:17,042 [main] INFO GroceNGoMart - Click down successfully
 2025-10-06 14:48:17,163 [main] INFO GroceNGoMart - Click Add to cart buttons successfully
 2025-10-06 14:48:17,346 [main] INFO GroceNGoMart - Click BuyNow button successfully
+
+2025-10-06 16:16:28,952 [main] INFO GroceNGoMart - Click Account successfully
+2025-10-06 16:16:29,872 [main] INFO GroceNGoMart - Click on login successfully
+2025-10-06 16:16:30,345 [main] INFO GroceNGoMart - username entered Successfully
+2025-10-06 16:16:30,543 [main] INFO GroceNGoMart - Password entered Successfully
+2025-10-06 16:16:36,921 [main] INFO GroceNGoMart - Login successfully
+2025-10-06 16:16:40,750 [main] INFO GroceNGoMart - Home page open successfully
+2025-10-06 16:16:44,003 [main] INFO GroceNGoMart - Email enter successfully
+2025-10-06 16:17:32,731 [main] INFO GroceNGoMart - All Feactugaries are print in concle successfully
+2025-10-06 16:17:34,509 [main] INFO GroceNGoMart - Click shop now button successfully
+2025-10-06 16:17:35,053 [main] INFO GroceNGoMart - Click shows 24 successfully
+2025-10-06 16:17:35,194 [main] INFO GroceNGoMart - Click sort by  button successfully
+2025-10-06 16:17:37,421 [main] INFO GroceNGoMart - Click Filter button successfully
+2025-10-06 16:17:38,071 [main] INFO GroceNGoMart - Click select Categorie checkboxes successfully
+2025-10-06 16:18:11,138 [main] INFO GroceNGoMart - Click select Brands checkboxes successfully
+2025-10-06 16:18:11,142 [main] INFO GroceNGoMart - Clear selected successfully
+2025-10-06 16:18:19,170 [main] INFO GroceNGoMart - click product successfully
+2025-10-06 16:18:21,482 [main] INFO GroceNGoMart - Click up successfully
+2025-10-06 16:18:23,598 [main] INFO GroceNGoMart - Click down successfully
+2025-10-06 16:18:23,723 [main] INFO GroceNGoMart - Click Add to cart buttons successfully
+2025-10-06 16:18:23,876 [main] INFO GroceNGoMart - Click BuyNow button successfully
+2025-10-06 16:19:03,012 [main] INFO GroceNGoMart - login sucessfull
+2025-10-06 16:19:27,184 [main] INFO GroceNGoMart - login sucessfull
+2025-10-06 16:19:39,472 [main] INFO GroceNGoMart - page created successfully
