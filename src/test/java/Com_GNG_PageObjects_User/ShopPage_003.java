@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ShopPage_003 {
 	public  WebDriver driver;
-    JavascriptExecutor jse;
+     JavascriptExecutor jse;
     
 	
 	 public ShopPage_003(WebDriver dr) {
@@ -48,7 +48,7 @@ public class ShopPage_003 {
 	@FindBy(xpath = "//a[contains(text(),'Clear All')]")
 	WebElement clerElement;
 	
-	@FindBy(xpath = "(//div[@class='product-action-1'])[4]")
+	@FindBy(xpath = "(//img[@class='hover-img'])[4]")
 	WebElement product;
 	
 	
@@ -85,28 +85,32 @@ public class ShopPage_003 {
 		}
 		
 	}
-	public void ByBrands() {
+	public void ByBrands() throws InterruptedException{
 		int size =categoriCheckbox.size();
 		System.out.println(size);
 		for (int i=0; i<size; i++) {
 			 WebElement Bcheckbox = categoriCheckbox.get(i);
 			  jse = (JavascriptExecutor)driver;
 				jse.executeScript("arguments[0].click();", Bcheckbox);
-			
+				Thread.sleep(2000);
 			
 		}
-		
+		clerElement.click();
 	}
 	
 	
 	
 	
 	
-	public void Product() {
-		clerElement.click();
+	public void Product() throws InterruptedException {
 		
+		Thread.sleep(4000);
 		
+		jse = (JavascriptExecutor)driver;
+		jse.executeScript("window.scrollBy(0, 700);" );
 		
+		jse.executeScript("arguments[0].click();", product);
+		Thread.sleep(3000);
 	}
 
 }

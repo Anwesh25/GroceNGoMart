@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-29T16:19:27 IST" name="Suite" finished-at="2025-09-29T16:21:06 IST" duration-ms="98244">
+  <suite started-at="2025-10-06T14:45:51 IST" name="Suite" finished-at="2025-10-06T14:48:17 IST" duration-ms="145665">
     <groups>
     </groups>
-    <test started-at="2025-09-29T16:19:27 IST" name="Test" finished-at="2025-09-29T16:21:06 IST" duration-ms="98244">
-      <class name="Com_GNG_TestCases_User.Tc_003_ShopPage">
-        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_User.Tc_003_ShopPage@2f4948e4]" started-at="2025-09-29T16:19:21 IST" name="OpenAppliction" finished-at="2025-09-29T16:19:27 IST" duration-ms="5932" status="PASS">
+    <test started-at="2025-10-06T14:45:51 IST" name="Test" finished-at="2025-10-06T14:48:17 IST" duration-ms="145665">
+      <class name="Com_GNG_TestCases_User.Tc_004_ProductPage">
+        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_User.Tc_004_ProductPage@5aa9e4eb]" started-at="2025-10-06T14:45:40 IST" name="OpenAppliction" finished-at="2025-10-06T14:45:51 IST" duration-ms="11381" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,23 +23,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAppliction -->
-        <test-method signature="Groc_UserLogin()[pri:0, instance:Com_GNG_TestCases_User.Tc_003_ShopPage@2f4948e4]" started-at="2025-09-29T16:19:27 IST" name="Groc_UserLogin" finished-at="2025-09-29T16:19:35 IST" duration-ms="7988" status="PASS">
+        <test-method signature="Groc_UserLogin()[pri:0, instance:Com_GNG_TestCases_User.Tc_004_ProductPage@5aa9e4eb]" started-at="2025-10-06T14:45:52 IST" name="Groc_UserLogin" finished-at="2025-10-06T14:46:01 IST" duration-ms="9002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Groc_UserLogin -->
-        <test-method signature="Home_Functionalityes()[pri:0, instance:Com_GNG_TestCases_User.Tc_003_ShopPage@2f4948e4]" started-at="2025-09-29T16:19:35 IST" name="Home_Functionalityes" finished-at="2025-09-29T16:21:02 IST" duration-ms="86179" status="PASS">
+        <test-method signature="Home_Functionalityes()[pri:0, instance:Com_GNG_TestCases_User.Tc_004_ProductPage@5aa9e4eb]" started-at="2025-10-06T14:46:02 IST" name="Home_Functionalityes" finished-at="2025-10-06T14:47:00 IST" duration-ms="58061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Functionalityes -->
-        <test-method signature="shopPage()[pri:0, instance:Com_GNG_TestCases_User.Tc_003_ShopPage@2f4948e4]" started-at="2025-09-29T16:21:02 IST" name="shopPage" finished-at="2025-09-29T16:21:06 IST" duration-ms="3968" status="PASS">
+        <test-method signature="shopPage()[pri:0, instance:Com_GNG_TestCases_User.Tc_004_ProductPage@5aa9e4eb]" started-at="2025-10-06T14:47:00 IST" name="shopPage" finished-at="2025-10-06T14:48:12 IST" duration-ms="72064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopPage -->
-        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_User.Tc_003_ShopPage@2f4948e4]" started-at="2025-09-29T16:21:06 IST" name="CloseApplication" finished-at="2025-09-29T16:21:09 IST" duration-ms="3460" status="PASS">
+        <test-method signature="Productpage()[pri:0, instance:Com_GNG_TestCases_User.Tc_004_ProductPage@5aa9e4eb]" started-at="2025-10-06T14:48:12 IST" name="Productpage" finished-at="2025-10-06T14:48:17 IST" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Productpage -->
+        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_User.Tc_004_ProductPage@5aa9e4eb]" started-at="2025-10-06T14:48:19 IST" name="CloseApplication" finished-at="2025-10-06T14:48:23 IST" duration-ms="3713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApplication -->
-      </class> <!-- Com_GNG_TestCases_User.Tc_003_ShopPage -->
+      </class> <!-- Com_GNG_TestCases_User.Tc_004_ProductPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
