@@ -24,10 +24,10 @@ public void shopPage() throws InterruptedException {
 		
 		SP.ByBrands();
 		log.info("Click select Brands checkboxes successfully");
-		
+		log.info("Clear selected successfully");
 		
 		SP.Product();
-		log.info("Clear selected successfully");
+		log.info("click product successfully");
 		
 		
 	}

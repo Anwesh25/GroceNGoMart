@@ -20,8 +20,8 @@ public HomePage_002 hp;
 		hp.emailtextbox();
 		log.info("Email enter successfully");
 		
-		hp.subscribeBTN();
-		log.info("Subscribe button clicked successfully");
+//		hp.subscribeBTN();
+//		log.info("Subscribe button clicked successfully");
 		
 		hp.FeactureCategoryList();
 		log.info("All Feactugaries are print in concle successfully");

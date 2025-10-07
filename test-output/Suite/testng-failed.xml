@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="URL" value="https://qa-grocengomart.w3testing.com/"/>
-  <parameter name="Browser" value="Chrome"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Com_GNG_TestCases_User.Tc_003_ShopPage">
+      <class name="Com_GNG_TestCases_Admin.Tc_002_PagesPage">
         <methods>
-          <include name="OpenAppliction"/>
-          <include name="CloseApplication"/>
-          <include name="shopPage"/>
+          <include name="close"/>
+          <include name="createTest"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- Com_GNG_TestCases_User.Tc_003_ShopPage -->
+      </class> <!-- Com_GNG_TestCases_Admin.Tc_002_PagesPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
