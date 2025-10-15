@@ -24,8 +24,8 @@ public WebDriver driver;
 	@FindBy(xpath="(//input[@type='email'])[1]")
 	WebElement text;
 
-	@FindBy(xpath="(//button[@class='btn'])[1] | (//button[@class='btn'])[2]")
-	WebElement btn;  
+//	@FindBy(xpath="(//button[@class='btn'])[1] | (//button[@class='btn'])[2]")
+//	WebElement btn;  
 
 	@FindBy(xpath = "//div[contains(@class,'card-2') and not(contains(@class,'slick-cloned'))]//h6/a")
 	List<WebElement> categoryList;
@@ -43,15 +43,17 @@ public WebDriver driver;
 	}
 
 	public void emailtextbox() throws InterruptedException {
+		
+		
 		jse= (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0, 300);" );
 		
 		text.sendKeys("shaiknoormahammad44@gmail.com");
 		Thread.sleep(2000);
 	}
-	public void subscribeBTN() {
-		btn.click();
-	}
+//	public void subscribeBTN() {
+//		btn.click();
+//	}
 	public void FeactureCategoryList() throws InterruptedException {
 		jse= (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0, 600);" );
