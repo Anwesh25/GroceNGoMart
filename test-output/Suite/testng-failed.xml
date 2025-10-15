@@ -12,7 +12,11 @@
         <methods>
           <include name="OpenAppliction"/>
           <include name="CloseApplication"/>
+          <include name="Groc_UserLogin"/>
           <include name="CheckoutProduct"/>
+          <include name="shopPage"/>
+          <include name="Productpage"/>
+          <include name="Home_Functionalityes"/>
         </methods>
       </class> <!-- Com_GNG_TestCases_User.Tc_005_CheckoutPage -->
     </classes>
