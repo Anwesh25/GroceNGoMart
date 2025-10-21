@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="GroceNGoMart Test Suite">
 <listeners>
 <listener class-name="Com_GNG_Utilities.Reports"></listener>
 </listeners>
-	<parameter name="Browser" value="Chrome"></parameter>
-	<parameter name="URL"
-		value="https://qa-grocengomart.w3testing.com/"></parameter>
 
-	<test thread-count="5" name="Test">
-		<classes>
-			<class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage" />
-		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+
+    
+    <!-- First: User Module -->
+    <test name="User Module">
+     <parameter name="Browser" value="Chrome"/>
+        <parameter name="URL" value="https://qa-grocengomart.w3testing.com/"/>
+        <classes>
+            
+            <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage"/>
+            <!-- Add more user test classes here -->
+        </classes>
+    </test>
+
+    <!-- Then: Admin Module -->
+    <test name="Admin Module">
+     <parameter name="Browser" value="Chrome"/>
+        <parameter name="URL" value="https://qa-grocengomart.w3testing.com/admin/login"/>
+        <classes>
+            <class name="Com_GNG_TestCases_Admin.Tc_003_blog"/>
+            <!-- Add more admin test classes here -->
+        </classes>
+    </test>
+
+</suite>
