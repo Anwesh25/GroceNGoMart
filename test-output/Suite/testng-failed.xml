@@ -4,16 +4,17 @@
   <listeners>
     <listener class-name="Com_GNG_Utilities.Reports"/>
   </listeners>
-  <test thread-count="5" name="Admin(failed)">
-    <parameter name="URL" value="https://qa-grocengomart.w3testing.com/admin/login"/>
+  <test thread-count="5" name="User(failed)">
+    <parameter name="URL" value="https://qa-grocengomart.w3testing.com/"/>
     <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="Com_GNG_TestCases_Admin.Tc_003_blog">
+      <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage">
         <methods>
-          <include name="blogTest"/>
+          <include name="CheckoutProduct"/>
+          <include name="CloseApplication"/>
           <include name="OpenAppliction"/>
         </methods>
-      </class> <!-- Com_GNG_TestCases_Admin.Tc_003_blog -->
+      </class> <!-- Com_GNG_TestCases_User.Tc_005_CheckoutPage -->
     </classes>
-  </test> <!-- Admin(failed) -->
+  </test> <!-- User(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -17,6 +17,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
+
 import org.testng.annotations.*;
 import org.testng.annotations.Parameters;
 
@@ -25,6 +26,7 @@ public class Base_Class {
 	public ResourceBundle rb;
 
 	public Logger log;
+
 
 	@BeforeClass
 	@Parameters({"Browser", "URL"})
@@ -60,6 +62,7 @@ public class Base_Class {
 		File tar = new File(path);
 		FileHandler.copy(src, tar);
 	}
+
 
 	@AfterClass
 	public void CloseApplication() throws InterruptedException {
