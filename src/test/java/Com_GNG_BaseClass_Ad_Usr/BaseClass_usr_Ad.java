@@ -1,4 +1,4 @@
-package Com_GNG_TestCases_User;
+package Com_GNG_BaseClass_Ad_Usr;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,16 +18,18 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-public class Base_Class {
+public class BaseClass_usr_Ad {
 	public static WebDriver driver;
 	public ResourceBundle rb;
 
 	public Logger log;
 
-	@BeforeSuite
+	@BeforeTest
 	@Parameters({"Browser", "URL"})
 	public void OpenAppliction(String Browser, String URL) {
 
@@ -58,13 +60,12 @@ public class Base_Class {
 		FileHandler.copy(src, tar);
 	}
 
-	@AfterSuite
+	@AfterTest
 	public void CloseApplication() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.quit();
 
 	}
-
 
 
 }

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-21T16:25:23 IST" name="GroceNGoMart Test Suite" finished-at="2025-10-21T16:29:23 IST" duration-ms="240489">
+    <groups>
+    </groups>
+    <test started-at="2025-10-21T16:25:23 IST" name="User Module" finished-at="2025-10-21T16:28:28 IST" duration-ms="184876">
+      <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage">
+        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-21T16:25:23 IST" name="OpenAppliction" finished-at="2025-10-21T16:25:29 IST" duration-ms="5110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qa-grocengomart.w3testing.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAppliction -->
+        <test-method signature="Groc_UserLogin()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-21T16:25:29 IST" name="Groc_UserLogin" finished-at="2025-10-21T16:25:37 IST" duration-ms="8110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Groc_UserLogin -->
+        <test-method signature="Home_Functionalityes()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-21T16:25:37 IST" name="Home_Functionalityes" finished-at="2025-10-21T16:27:03 IST" duration-ms="85949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Functionalityes -->
+        <test-method signature="shopPage()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-21T16:27:03 IST" name="shopPage" finished-at="2025-10-21T16:27:49 IST" duration-ms="45309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopPage -->
+        <test-method signature="Productpage()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-21T16:27:49 IST" name="Productpage" finished-at="2025-10-21T16:27:54 IST" duration-ms="4762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Productpage -->
+        <test-method signature="CheckoutProduct()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-21T16:27:55 IST" name="CheckoutProduct" finished-at="2025-10-21T16:28:24 IST" duration-ms="28782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutProduct -->
+        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-21T16:28:24 IST" name="CloseApplication" finished-at="2025-10-21T16:28:28 IST" duration-ms="3449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- Com_GNG_TestCases_User.Tc_005_CheckoutPage -->
+    </test> <!-- User Module -->
+    <test started-at="2025-10-21T16:28:29 IST" name="Admin Module" finished-at="2025-10-21T16:29:23 IST" duration-ms="54518">
+      <class name="Com_GNG_TestCases_Admin.Tc_003_blog">
+        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-21T16:28:29 IST" name="OpenAppliction" finished-at="2025-10-21T16:28:33 IST" duration-ms="4489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qa-grocengomart.w3testing.com/admin/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAppliction -->
+        <test-method signature="testing()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-21T16:28:33 IST" name="testing" finished-at="2025-10-21T16:28:40 IST" duration-ms="6650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="createTest()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-21T16:28:40 IST" name="createTest" finished-at="2025-10-21T16:28:53 IST" duration-ms="12879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="blogTest()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-21T16:28:53 IST" name="blogTest" finished-at="2025-10-21T16:29:20 IST" duration-ms="26366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogTest -->
+        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-21T16:29:20 IST" name="CloseApplication" finished-at="2025-10-21T16:29:23 IST" duration-ms="3489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- Com_GNG_TestCases_Admin.Tc_003_blog -->
+    </test> <!-- Admin Module -->
+  </suite> <!-- GroceNGoMart Test Suite -->
+</testng-results>

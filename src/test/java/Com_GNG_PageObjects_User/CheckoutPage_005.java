@@ -90,7 +90,7 @@ public class CheckoutPage_005 {
 
 
 		jse= (JavascriptExecutor)driver;
-		jse.executeScript("window.scrollBy(0, 200);" );
+		jse.executeScript("window.scrollBy(0, 300);" );
 		Thread.sleep(3000);
 		sc=new Select(dd);
 		sc.selectByContainsVisibleText("Add new address...");
@@ -110,7 +110,8 @@ public class CheckoutPage_005 {
 		city.sendKeys("Vijaywada");
 		Adress.sendKeys("14/244, timmapur");
 		shippingmethod2.click();
-		Thread.sleep(2000);
+		
+		Thread.sleep(3000);
 
 		clink.click();
 		CCode.sendKeys("RFDYR4CU35Q8");
