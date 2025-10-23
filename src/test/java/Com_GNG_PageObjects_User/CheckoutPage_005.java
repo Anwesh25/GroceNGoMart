@@ -117,12 +117,15 @@ public class CheckoutPage_005 {
 		CCode.sendKeys("RFDYR4CU35Q8");
 
 
-		jse.executeScript("arguments[0].click();", Cubtn);
+		jse.executeScript("arguments[0].click();", Cubtn); 
+		Thread.sleep(2000);
+		
 		bankt.click();
 
 
 		ordernots.sendKeys("deleviry on time");
-	
+		Thread.sleep(2000);
+		
 		Checkoutbtn.click();
 
 	}

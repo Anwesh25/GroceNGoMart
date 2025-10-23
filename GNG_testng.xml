@@ -13,7 +13,8 @@
 			<!-- <class name="Com_GNG_TestCases_User.Tc_004_ProductPage"/> -->
 			<!-- <class name="Com_GNG_TestCases_User.Tc_003_ShopPage"/> -->
 			<!-- <class name="Com_GNG_TestCases_User.Tc_002_HomePage"/> -->
-			<class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage" />
+			<!-- <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage" /> -->
+			 <class name="Com_GNG_TestCases_User.Tc_006_OrdePlaced" /> 
 
 			<!-- <class name="Com_GNG_TestCases_User.Tc_001_LoginPage"/> -->
 		</classes>

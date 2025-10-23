@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Personal\git\GroceNGoMart\GNG_testng.xml</span>
+                    <span>C:\new eclipse\eclipse-workspace\GroceNGoMart\GNG_testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_Admin.Tc_003_blog" class="method navigator-link" hash-for-method="createTest">createTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +117,27 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_005_CheckoutPage" class="method navigator-link" hash-for-method="CheckoutProduct">CheckoutProduct</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_006_OrdePlaced" class="method navigator-link" hash-for-method="CShipping">CShipping</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_005_CheckoutPage" class="method navigator-link" hash-for-method="Groc_UserLogin">Groc_UserLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_006_OrdePlaced" class="method navigator-link" hash-for-method="CheckoutProduct">CheckoutProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_005_CheckoutPage" class="method navigator-link" hash-for-method="Home_Functionalityes">Home_Functionalityes</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_006_OrdePlaced" class="method navigator-link" hash-for-method="Groc_UserLogin">Groc_UserLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_005_CheckoutPage" class="method navigator-link" hash-for-method="Productpage">Productpage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_006_OrdePlaced" class="method navigator-link" hash-for-method="Home_Functionalityes">Home_Functionalityes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_006_OrdePlaced" class="method navigator-link" hash-for-method="Productpage">Productpage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -128,12 +147,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_Admin.Tc_003_blog" class="method navigator-link" hash-for-method="createTest">createTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_005_CheckoutPage" class="method navigator-link" hash-for-method="shopPage">shopPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Com_GNG_TestCases_User.Tc_006_OrdePlaced" class="method navigator-link" hash-for-method="shopPage">shopPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,41 +167,60 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Com_GNG_TestCases_Admin.Tc_003_blog</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="blogTest">
-                  </a> <!-- blogTest -->
-                  <span class="method-name">blogTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="createTest">
                   </a> <!-- createTest -->
                   <span class="method-name">createTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testing">
-                  </a> <!-- testing -->
-                  <span class="method-name">testing</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9af1570f5079c50224fc22165c01ad56, clickElement {id=f.2E50FBEED48735599F1CA7EA575F2C27.d.3E975AEE925B3731486D65FF0979154E.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Personal\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52914/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9af1570f5079c50224fc22165c01ad56)] -&gt; xpath: (//button[normalize-space(@class=&apos;btn btn-secondary action-item&apos;)])[3]]
+Session ID: 9af1570f5079c50224fc22165c01ad56
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at Com_GNG_PageObjects_Admin.PagesPage_002.create1(PagesPage_002.java:105)
+	at Com_GNG_TestCases_Admin.Tc_002_PagesPage.createTest(Tc_002_PagesPage.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Com_GNG_TestCases_User.Tc_005_CheckoutPage</span>
+              <span class="class-name">Com_GNG_TestCases_User.Tc_006_OrdePlaced</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CShipping">
+                  </a> <!-- CShipping -->
+                  <span class="method-name">CShipping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="CheckoutProduct">
@@ -225,10 +258,32 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Com_GNG_TestCases_Admin.Tc_003_blog</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blogTest">
+                  </a> <!-- blogTest -->
+                  <span class="method-name">blogTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing">
+                  </a> <!-- testing -->
+                  <span class="method-name">testing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Personal\git\GroceNGoMart\GNG_testng.xml</span>
+            <span class="header-content">C:\new eclipse\eclipse-workspace\GroceNGoMart\GNG_testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -242,7 +297,7 @@
     &lt;parameter name=&quot;URL&quot; value=&quot;https://qa-grocengomart.w3testing.com/&quot;/&gt;
     &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Com_GNG_TestCases_User.Tc_005_CheckoutPage&quot;/&gt;
+      &lt;class name=&quot;Com_GNG_TestCases_User.Tc_006_OrdePlaced&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- User --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Admin&quot;&gt;
@@ -292,44 +347,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Home_Functionalityes')
-data.setCell(0, 2, 'Com_GNG_TestCases_User.Tc_005_CheckoutPage')
-data.setCell(0, 3, 55670);
+data.setCell(0, 2, 'Com_GNG_TestCases_User.Tc_006_OrdePlaced')
+data.setCell(0, 3, 59205);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'shopPage')
-data.setCell(1, 2, 'Com_GNG_TestCases_User.Tc_005_CheckoutPage')
-data.setCell(1, 3, 44977);
+data.setCell(1, 1, 'CheckoutProduct')
+data.setCell(1, 2, 'Com_GNG_TestCases_User.Tc_006_OrdePlaced')
+data.setCell(1, 3, 58070);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'CheckoutProduct')
-data.setCell(2, 2, 'Com_GNG_TestCases_User.Tc_005_CheckoutPage')
-data.setCell(2, 3, 26793);
+data.setCell(2, 1, 'shopPage')
+data.setCell(2, 2, 'Com_GNG_TestCases_User.Tc_006_OrdePlaced')
+data.setCell(2, 3, 44731);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'blogTest')
 data.setCell(3, 2, 'Com_GNG_TestCases_Admin.Tc_003_blog')
-data.setCell(3, 3, 24704);
+data.setCell(3, 3, 26355);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'createTest')
 data.setCell(4, 2, 'Com_GNG_TestCases_Admin.Tc_003_blog')
-data.setCell(4, 3, 9956);
+data.setCell(4, 3, 10248);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Groc_UserLogin')
-data.setCell(5, 2, 'Com_GNG_TestCases_User.Tc_005_CheckoutPage')
-data.setCell(5, 3, 8832);
+data.setCell(5, 2, 'Com_GNG_TestCases_User.Tc_006_OrdePlaced')
+data.setCell(5, 3, 8970);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testing')
 data.setCell(6, 2, 'Com_GNG_TestCases_Admin.Tc_003_blog')
-data.setCell(6, 3, 4545);
+data.setCell(6, 3, 6309);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'Productpage')
-data.setCell(7, 2, 'Com_GNG_TestCases_User.Tc_005_CheckoutPage')
-data.setCell(7, 3, 4473);
+data.setCell(7, 2, 'Com_GNG_TestCases_User.Tc_006_OrdePlaced')
+data.setCell(7, 3, 4419);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CShipping')
+data.setCell(8, 2, 'Com_GNG_TestCases_User.Tc_006_OrdePlaced')
+data.setCell(8, 3, 1397);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -355,57 +414,63 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Com_GNG_TestCases_User.Tc_005_CheckoutPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Com_GNG_TestCases_User.Tc_006_OrdePlaced</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenAppliction(Chrome, https://qa-grocengomart.w3testing.com/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Groc_UserLogin</span>
-                <span class="method-start">5234 ms</span>
+                <span class="method-start">9019 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Home_Functionalityes</span>
-                <span class="method-start">14734 ms</span>
+                <span class="method-start">18360 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">shopPage</span>
-                <span class="method-start">70580 ms</span>
+                <span class="method-start">77747 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Productpage</span>
-                <span class="method-start">115787 ms</span>
+                <span class="method-start">122650 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CheckoutProduct</span>
-                <span class="method-start">122221 ms</span>
+                <span class="method-start">127308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CShipping</span>
+                <span class="method-start">185627 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">CloseApplication</span>
-                <span class="method-start">149780 ms</span>
+                <span class="method-start">187305 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Com_GNG_TestCases_Admin.Tc_003_blog</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenAppliction(Chrome, https://qa-grocengomart.w3testing.com/admin/login)</span>
-                <span class="method-start">153752 ms</span>
+                <span class="method-start">191328 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testing</span>
-                <span class="method-start">157228 ms</span>
+                <span class="method-start">195441 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">createTest</span>
-                <span class="method-start">161973 ms</span>
+                <span class="method-start">201908 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">blogTest</span>
-                <span class="method-start">172060 ms</span>
+                <span class="method-start">212177 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">CloseApplication</span>
-                <span class="method-start">196935 ms</span>
+                <span class="method-start">238713 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
