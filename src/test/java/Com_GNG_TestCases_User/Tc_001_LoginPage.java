@@ -1,12 +1,13 @@
 package Com_GNG_TestCases_User;
 import org.testng.annotations.Test;
 
-import Com_GNG_BaseClass_Ad_Usr.BaseClass_usr_Ad;
+
+import Com_BaseClass.Base_Class;
 import Com_GNG_PageObjects_User.*;
 
 
 
-public class Tc_001_LoginPage extends BaseClass_usr_Ad{
+public class Tc_001_LoginPage extends Base_Class{
 	public LoginPage_001 gl;
 	@Test
 	public void Groc_UserLogin() throws InterruptedException {

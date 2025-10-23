@@ -16,8 +16,8 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import Com_GNG_BaseClass_Ad_Usr.BaseClass_usr_Ad;
 
+import Com_BaseClass.Base_Class;
 
 
 
@@ -53,7 +53,7 @@ public class Reports implements ITestListener {
 		test = extentR.createTest(tr.getName());
 		test.log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN));
 		try {
-			BaseClass_usr_Ad bClass = new BaseClass_usr_Ad();
+			Base_Class bClass = new Base_Class();
 			bClass.CaptureScreenshot(tr.getName().toString());
 		} catch (IOException e) {
 			e.printStackTrace();

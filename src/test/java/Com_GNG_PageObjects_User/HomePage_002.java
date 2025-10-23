@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage_002 {
-public WebDriver driver;
+public static WebDriver driver;
 	public JavascriptExecutor jse;
 	 public HomePage_002 (WebDriver dr) {
 		

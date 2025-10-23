@@ -15,7 +15,7 @@ import org.testng.asserts.SoftAssert;
 
 public class PagesPage_002 extends CreatePage {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Robot r;
 	public CreatePage c;
 	public PagesPage_002(WebDriver dr) {
@@ -26,7 +26,7 @@ public class PagesPage_002 extends CreatePage {
 	}
 	
 	@FindBy (xpath = "//i[@class='fa fa-book']") WebElement pagesElement;
-	@FindBy (xpath = "//i[@class='fa fa-plus']") WebElement create;
+	@FindBy (xpath = "(//button[normalize-space(@class='btn btn-secondary action-item')])[3]") WebElement create;
 	
 	@FindBy (xpath = "(//input[@class='form-control'])[1]") WebElement name;
 	@FindBy (xpath = "(//textarea[@class='form-control'])[1]") WebElement descrip;
