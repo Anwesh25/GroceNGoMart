@@ -38,7 +38,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>Hyb_testng.xml</suiteXmlFile>
+						<suiteXmlFile>GNG_testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

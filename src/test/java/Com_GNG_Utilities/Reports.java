@@ -16,7 +16,8 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import Com_GNG_TestCases_User.Base_Class;
+
+import Com_BaseClass.Base_Class;
 
 
 
