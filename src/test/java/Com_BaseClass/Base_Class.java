@@ -18,13 +18,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 
-<<<<<<< HEAD:src/test/java/Com_GNG_BaseClass_Ad_Usr/BaseClass_usr_Ad.java
-import org.testng.annotations.AfterTest;
 
-import org.testng.annotations.BeforeTest;
-=======
+
 import org.testng.annotations.*;
->>>>>>> 35f47e4a858c50995f1deeec98affd3d8811e32e:src/test/java/Com_BaseClass/Base_Class.java
+
 import org.testng.annotations.Parameters;
 
 public class Base_Class {

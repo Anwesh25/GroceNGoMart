@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2025-10-22T17:00:20 IST" name="GroceNGoMart Test Suite" finished-at="2025-10-22T17:05:09 IST" duration-ms="289701">
+  <suite started-at="2025-10-23T14:24:45 IST" name="Suite" finished-at="2025-10-23T14:28:47 IST" duration-ms="242589">
     <groups>
     </groups>
-    <test started-at="2025-10-22T17:00:20 IST" name="User Module" finished-at="2025-10-22T17:03:34 IST" duration-ms="193870">
-      <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage">
-        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-22T17:00:20 IST" name="OpenAppliction" finished-at="2025-10-22T17:00:31 IST" duration-ms="10871" status="PASS">
-=======
-  <suite started-at="2025-10-21T22:10:15 IST" name="Suite" finished-at="2025-10-21T22:13:36 IST" duration-ms="201075">
-    <groups>
-    </groups>
-    <test started-at="2025-10-21T22:10:15 IST" name="User" finished-at="2025-10-21T22:12:49 IST" duration-ms="153825">
-      <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage">
-        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@36ebc363]" started-at="2025-10-21T22:10:16 IST" name="OpenAppliction" finished-at="2025-10-21T22:10:21 IST" duration-ms="5192" status="PASS">
->>>>>>> 35f47e4a858c50995f1deeec98affd3d8811e32e
+    <test started-at="2025-10-23T14:24:45 IST" name="User" finished-at="2025-10-23T14:27:56 IST" duration-ms="191311">
+      <class name="Com_GNG_TestCases_User.Tc_006_OrdePlaced">
+        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_User.Tc_006_OrdePlaced@5aa9e4eb]" started-at="2025-10-23T14:24:45 IST" name="OpenAppliction" finished-at="2025-10-23T14:24:54 IST" duration-ms="9001" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,66 +23,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAppliction -->
-<<<<<<< HEAD
-        <test-method signature="Groc_UserLogin()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-22T17:00:31 IST" name="Groc_UserLogin" finished-at="2025-10-22T17:00:40 IST" duration-ms="8860" status="PASS">
+        <test-method signature="Groc_UserLogin()[pri:0, instance:Com_GNG_TestCases_User.Tc_006_OrdePlaced@5aa9e4eb]" started-at="2025-10-23T14:24:54 IST" name="Groc_UserLogin" finished-at="2025-10-23T14:25:03 IST" duration-ms="8970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Groc_UserLogin -->
-        <test-method signature="Home_Functionalityes()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-22T17:00:40 IST" name="Home_Functionalityes" finished-at="2025-10-22T17:02:09 IST" duration-ms="88292" status="PASS">
+        <test-method signature="Home_Functionalityes()[pri:0, instance:Com_GNG_TestCases_User.Tc_006_OrdePlaced@5aa9e4eb]" started-at="2025-10-23T14:25:03 IST" name="Home_Functionalityes" finished-at="2025-10-23T14:26:03 IST" duration-ms="59205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_Functionalityes -->
-        <test-method signature="shopPage()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-22T17:02:09 IST" name="shopPage" finished-at="2025-10-22T17:02:54 IST" duration-ms="44979" status="PASS">
+        <test-method signature="shopPage()[pri:0, instance:Com_GNG_TestCases_User.Tc_006_OrdePlaced@5aa9e4eb]" started-at="2025-10-23T14:26:03 IST" name="shopPage" finished-at="2025-10-23T14:26:48 IST" duration-ms="44731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopPage -->
-        <test-method signature="Productpage()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-22T17:02:54 IST" name="Productpage" finished-at="2025-10-22T17:02:59 IST" duration-ms="4412" status="PASS">
+        <test-method signature="Productpage()[pri:0, instance:Com_GNG_TestCases_User.Tc_006_OrdePlaced@5aa9e4eb]" started-at="2025-10-23T14:26:48 IST" name="Productpage" finished-at="2025-10-23T14:26:52 IST" duration-ms="4419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Productpage -->
-        <test-method signature="CheckoutProduct()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-22T17:02:59 IST" name="CheckoutProduct" finished-at="2025-10-22T17:03:30 IST" duration-ms="30820" status="PASS">
+        <test-method signature="CheckoutProduct()[pri:0, instance:Com_GNG_TestCases_User.Tc_006_OrdePlaced@5aa9e4eb]" started-at="2025-10-23T14:26:52 IST" name="CheckoutProduct" finished-at="2025-10-23T14:27:50 IST" duration-ms="58070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckoutProduct -->
-        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@10683d9d]" started-at="2025-10-22T17:03:30 IST" name="CloseApplication" finished-at="2025-10-22T17:03:34 IST" duration-ms="3415" status="PASS">
-=======
-        <test-method signature="Groc_UserLogin()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@36ebc363]" started-at="2025-10-21T22:10:21 IST" name="Groc_UserLogin" finished-at="2025-10-21T22:10:30 IST" duration-ms="8832" status="PASS">
+        <test-method signature="CShipping()[pri:0, instance:Com_GNG_TestCases_User.Tc_006_OrdePlaced@5aa9e4eb]" started-at="2025-10-23T14:27:51 IST" name="CShipping" finished-at="2025-10-23T14:27:52 IST" duration-ms="1397" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Groc_UserLogin -->
-        <test-method signature="Home_Functionalityes()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@36ebc363]" started-at="2025-10-21T22:10:30 IST" name="Home_Functionalityes" finished-at="2025-10-21T22:11:26 IST" duration-ms="55670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_Functionalityes -->
-        <test-method signature="shopPage()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@36ebc363]" started-at="2025-10-21T22:11:26 IST" name="shopPage" finished-at="2025-10-21T22:12:11 IST" duration-ms="44977" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shopPage -->
-        <test-method signature="Productpage()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@36ebc363]" started-at="2025-10-21T22:12:11 IST" name="Productpage" finished-at="2025-10-21T22:12:16 IST" duration-ms="4473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Productpage -->
-        <test-method signature="CheckoutProduct()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@36ebc363]" started-at="2025-10-21T22:12:18 IST" name="CheckoutProduct" finished-at="2025-10-21T22:12:45 IST" duration-ms="26793" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckoutProduct -->
-        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_User.Tc_005_CheckoutPage@36ebc363]" started-at="2025-10-21T22:12:45 IST" name="CloseApplication" finished-at="2025-10-21T22:12:49 IST" duration-ms="3438" status="PASS">
->>>>>>> 35f47e4a858c50995f1deeec98affd3d8811e32e
+        </test-method> <!-- CShipping -->
+        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_User.Tc_006_OrdePlaced@5aa9e4eb]" started-at="2025-10-23T14:27:52 IST" name="CloseApplication" finished-at="2025-10-23T14:27:56 IST" duration-ms="3484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApplication -->
-      </class> <!-- Com_GNG_TestCases_User.Tc_005_CheckoutPage -->
-<<<<<<< HEAD
-    </test> <!-- User Module -->
-    <test started-at="2025-10-22T17:03:34 IST" name="Admin Module" finished-at="2025-10-22T17:05:09 IST" duration-ms="95091">
-      <class name="Com_GNG_TestCases_Admin.Tc_003_blog">
-        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-22T17:03:34 IST" name="OpenAppliction" finished-at="2025-10-22T17:03:40 IST" duration-ms="5988" status="PASS">
-=======
+      </class> <!-- Com_GNG_TestCases_User.Tc_006_OrdePlaced -->
     </test> <!-- User -->
-    <test started-at="2025-10-21T22:12:49 IST" name="Admin" finished-at="2025-10-21T22:13:36 IST" duration-ms="46722">
+    <test started-at="2025-10-23T14:27:56 IST" name="Admin" finished-at="2025-10-23T14:28:47 IST" duration-ms="50749">
       <class name="Com_GNG_TestCases_Admin.Tc_003_blog">
-        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@65e98b1c]" started-at="2025-10-21T22:12:49 IST" name="OpenAppliction" finished-at="2025-10-21T22:12:53 IST" duration-ms="3473" status="PASS">
->>>>>>> 35f47e4a858c50995f1deeec98affd3d8811e32e
+        <test-method is-config="true" signature="OpenAppliction(java.lang.String,java.lang.String)[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@2df3b89c]" started-at="2025-10-23T14:27:56 IST" name="OpenAppliction" finished-at="2025-10-23T14:28:01 IST" duration-ms="4097" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,38 +71,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAppliction -->
-<<<<<<< HEAD
-        <test-method signature="testing()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-22T17:03:40 IST" name="testing" finished-at="2025-10-22T17:03:51 IST" duration-ms="10546" status="PASS">
+        <test-method signature="testing()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@2df3b89c]" started-at="2025-10-23T14:28:01 IST" name="testing" finished-at="2025-10-23T14:28:07 IST" duration-ms="6309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing -->
-        <test-method signature="createTest()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-22T17:03:51 IST" name="createTest" finished-at="2025-10-22T17:04:13 IST" duration-ms="22425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method signature="blogTest()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-22T17:04:14 IST" name="blogTest" finished-at="2025-10-22T17:05:06 IST" duration-ms="52373" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="createTest()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@2df3b89c]" started-at="2025-10-23T14:28:07 IST" name="createTest" finished-at="2025-10-23T14:28:17 IST" duration-ms="10248" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='fas fa-sync']"}
+              <![CDATA[stale element reference: stale element not found
   (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1a00b652f30e221d50145a24c445e52d, findElement {value=//i[@class='fas fa-sync'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Personal\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54632/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a00b652f30e221d50145a24c445e52d]]>
+Command: [9af1570f5079c50224fc22165c01ad56, clickElement {id=f.2E50FBEED48735599F1CA7EA575F2C27.d.3E975AEE925B3731486D65FF0979154E.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Personal\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52914/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9af1570f5079c50224fc22165c01ad56)] -> xpath: (//button[normalize-space(@class='btn btn-secondary action-item')])[3]]
+Session ID: 9af1570f5079c50224fc22165c01ad56]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='fas fa-sync']"}
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
   (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1a00b652f30e221d50145a24c445e52d, findElement {value=//i[@class='fas fa-sync'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Personal\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54632/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a00b652f30e221d50145a24c445e52d
+Command: [9af1570f5079c50224fc22165c01ad56, clickElement {id=f.2E50FBEED48735599F1CA7EA575F2C27.d.3E975AEE925B3731486D65FF0979154E.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Personal\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52914/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9af1570f5079c50224fc22165c01ad56)] -> xpath: (//button[normalize-space(@class='btn btn-secondary action-item')])[3]]
+Session ID: 9af1570f5079c50224fc22165c01ad56
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -149,15 +110,14 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at Com_GNG_PageObjects_Admin.Blog.reload(Blog.java:65)
-at Com_GNG_TestCases_Admin.Tc_003_blog.blogTest(Tc_003_blog.java:17)
+at Com_GNG_PageObjects_Admin.PagesPage_002.create1(PagesPage_002.java:105)
+at Com_GNG_TestCases_Admin.Tc_002_PagesPage.createTest(Tc_002_PagesPage.java:18)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -186,26 +146,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- blogTest -->
-        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@37ceb1df]" started-at="2025-10-22T17:05:06 IST" name="CloseApplication" finished-at="2025-10-22T17:05:09 IST" duration-ms="3413" status="PASS">
-=======
-        <test-method signature="testing()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@65e98b1c]" started-at="2025-10-21T22:12:53 IST" name="testing" finished-at="2025-10-21T22:12:57 IST" duration-ms="4545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testing -->
-        <test-method signature="createTest()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@65e98b1c]" started-at="2025-10-21T22:12:58 IST" name="createTest" finished-at="2025-10-21T22:13:08 IST" duration-ms="9956" status="PASS">
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method signature="blogTest()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@65e98b1c]" started-at="2025-10-21T22:13:08 IST" name="blogTest" finished-at="2025-10-21T22:13:32 IST" duration-ms="24704" status="PASS">
+        <test-method signature="blogTest()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@2df3b89c]" started-at="2025-10-23T14:28:17 IST" name="blogTest" finished-at="2025-10-23T14:28:44 IST" duration-ms="26355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blogTest -->
-        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@65e98b1c]" started-at="2025-10-21T22:13:33 IST" name="CloseApplication" finished-at="2025-10-21T22:13:36 IST" duration-ms="3534" status="PASS">
->>>>>>> 35f47e4a858c50995f1deeec98affd3d8811e32e
+        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:Com_GNG_TestCases_Admin.Tc_003_blog@2df3b89c]" started-at="2025-10-23T14:28:44 IST" name="CloseApplication" finished-at="2025-10-23T14:28:47 IST" duration-ms="3357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApplication -->

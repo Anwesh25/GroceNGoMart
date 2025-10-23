@@ -4,34 +4,17 @@
   <listeners>
     <listener class-name="Com_GNG_Utilities.Reports"/>
   </listeners>
-<<<<<<< HEAD
-  <test thread-count="5" name="Admin Module(failed)">
+  <test thread-count="5" name="Admin(failed)">
     <parameter name="URL" value="https://qa-grocengomart.w3testing.com/admin/login"/>
     <parameter name="Browser" value="Chrome"/>
     <classes>
       <class name="Com_GNG_TestCases_Admin.Tc_003_blog">
         <methods>
-          <include name="blogTest"/>
           <include name="CloseApplication"/>
+          <include name="createTest"/>
           <include name="OpenAppliction"/>
         </methods>
       </class> <!-- Com_GNG_TestCases_Admin.Tc_003_blog -->
     </classes>
-  </test> <!-- Admin Module(failed) -->
-</suite> <!-- Failed suite [GroceNGoMart Test Suite] -->
-=======
-  <test thread-count="5" name="User(failed)">
-    <parameter name="URL" value="https://qa-grocengomart.w3testing.com/"/>
-    <parameter name="Browser" value="Chrome"/>
-    <classes>
-      <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage">
-        <methods>
-          <include name="CheckoutProduct"/>
-          <include name="CloseApplication"/>
-          <include name="OpenAppliction"/>
-        </methods>
-      </class> <!-- Com_GNG_TestCases_User.Tc_005_CheckoutPage -->
-    </classes>
-  </test> <!-- User(failed) -->
+  </test> <!-- Admin(failed) -->
 </suite> <!-- Failed suite [Suite] -->
->>>>>>> 35f47e4a858c50995f1deeec98affd3d8811e32e

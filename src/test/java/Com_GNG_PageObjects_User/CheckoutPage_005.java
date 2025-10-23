@@ -118,6 +118,8 @@ public class CheckoutPage_005 {
 
 
 		jse.executeScript("arguments[0].click();", Cubtn); 
+		Thread.sleep(2000);
+		
 		bankt.click();
 
 
