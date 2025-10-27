@@ -7,9 +7,9 @@
         <methods>
           <include name="OpenAppliction"/>
           <include name="CloseApplication"/>
+          <include name="Groc_UserLogin"/>
           <include name="shopPage"/>
           <include name="CheckoutProduct"/>
-          <include name="Groc_UserLogin"/>
           <include name="Productpage"/>
           <include name="Home_Functionalityes"/>
         </methods>
