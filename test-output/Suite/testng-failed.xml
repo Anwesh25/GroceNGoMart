@@ -10,11 +10,28 @@
     <classes>
       <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage">
         <methods>
+          <include name="Groc_UserLogin"/>
+          <include name="shopPage"/>
           <include name="CheckoutProduct"/>
+          <include name="Productpage"/>
           <include name="CloseApplication"/>
+          <include name="Home_Functionalityes"/>
           <include name="OpenAppliction"/>
         </methods>
       </class> <!-- Com_GNG_TestCases_User.Tc_005_CheckoutPage -->
     </classes>
   </test> <!-- User(failed) -->
+  <test thread-count="5" name="Admin(failed)">
+    <parameter name="URL" value="https://qa-grocengomart.w3testing.com/admin/login"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="Com_GNG_TestCases_Admin.Tc_005_Tags">
+        <methods>
+          <include name="CloseApplication"/>
+          <include name="createTest"/>
+          <include name="OpenAppliction"/>
+        </methods>
+      </class> <!-- Com_GNG_TestCases_Admin.Tc_005_Tags -->
+    </classes>
+  </test> <!-- Admin(failed) -->
 </suite> <!-- Failed suite [Suite] -->

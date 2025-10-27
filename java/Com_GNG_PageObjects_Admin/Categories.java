@@ -1,4 +1,4 @@
-package Com_GNG_TestCases_Admin;
+package Com_GNG_PageObjects_Admin;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,7 +19,7 @@ public class Categories {
 		
 	}
 	
-	@FindBy (xpath="//i[@class='fa fa-edit']") WebElement blog;
+@FindBy (xpath="//i[@class='fa fa-edit']") WebElement blog;
 	
 	@FindBy (xpath="(//a[@class='nav-link'])[2]")WebElement Category;
 	
@@ -76,10 +76,13 @@ public class Categories {
 		Thread.sleep(2000);
 		Order.sendKeys("2");
 		Thread.sleep(2000);
-		//JavascriptExecutor js=(JavascriptExecutor)driver;
-		//js.executeScript("window.scrollTo(0,document.body.scrollHeight);");
-		save2.click();
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click();",save2);
+		//save2.click();
+		JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("window.scrollTo(0, 0);");
 		Thread.sleep(300);
+		
 	    
 	}
 
