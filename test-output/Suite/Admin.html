@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Admin</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 27 15:33:19 IST 2025</td>
+<td>Started on:</td><td>Thu Oct 23 14:27:56 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>61 seconds (61319 ms)</td>
+<tr><td>Total time:</td><td>50 seconds (50749 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Com_GNG_TestCases_Admin.Tc_005_Tags.createTest()'><b>createTest</b><br>Test class: Com_GNG_TestCases_Admin.Tc_005_Tags</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+<td title='Com_GNG_TestCases_Admin.Tc_003_blog.createTest()'><b>createTest</b><br>Test class: Com_GNG_TestCases_Admin.Tc_003_blog</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
   (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f187df87d77b7066f90ad2e64413505d, clickElement {id=f.2DDC1EF55A209D47029B7CB6C5FACE25.d.13C6599B3D9484FCC474FEEAE2C3DDAC.e.53}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ajayk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55181/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f187df87d77b7066f90ad2e64413505d)] -&gt; xpath: (//button[normalize-space(@class=&apos;btn btn-secondary action-item&apos;)])[3]]
-Session ID: f187df87d77b7066f90ad2e64413505d
+Command: [9af1570f5079c50224fc22165c01ad56, clickElement {id=f.2E50FBEED48735599F1CA7EA575F2C27.d.3E975AEE925B3731486D65FF0979154E.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Personal\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52914/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9af1570f5079c50224fc22165c01ad56)] -&gt; xpath: (//button[normalize-space(@class=&apos;btn btn-secondary action-item&apos;)])[3]]
+Session ID: 9af1570f5079c50224fc22165c01ad56
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -99,22 +100,21 @@ Session ID: f187df87d77b7066f90ad2e64413505d
 	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
 	at Com_GNG_PageObjects_Admin.PagesPage_002.create1(PagesPage_002.java:105)
 	at Com_GNG_TestCases_Admin.Tc_002_PagesPage.createTest(Tc_002_PagesPage.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1260012504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1260012504'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1346667529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1346667529'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
   (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f187df87d77b7066f90ad2e64413505d, clickElement {id=f.2DDC1EF55A209D47029B7CB6C5FACE25.d.13C6599B3D9484FCC474FEEAE2C3DDAC.e.53}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ajayk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55181/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f187df87d77b7066f90ad2e64413505d)] -&gt; xpath: (//button[normalize-space(@class=&apos;btn btn-secondary action-item&apos;)])[3]]
-Session ID: f187df87d77b7066f90ad2e64413505d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+Command: [9af1570f5079c50224fc22165c01ad56, clickElement {id=f.2E50FBEED48735599F1CA7EA575F2C27.d.3E975AEE925B3731486D65FF0979154E.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Personal\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52914/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9af1570f5079c50224fc22165c01ad56)] -&gt; xpath: (//button[normalize-space(@class=&apos;btn btn-secondary action-item&apos;)])[3]]
+Session ID: 9af1570f5079c50224fc22165c01ad56
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -124,18 +124,14 @@ Session ID: f187df87d77b7066f90ad2e64413505d
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
 	at Com_GNG_PageObjects_Admin.PagesPage_002.create1(PagesPage_002.java:105)
 	at Com_GNG_TestCases_Admin.Tc_002_PagesPage.createTest(Tc_002_PagesPage.java:18)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -144,7 +140,7 @@ Session ID: f187df87d77b7066f90ad2e64413505d
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -162,7 +158,7 @@ Session ID: f187df87d77b7066f90ad2e64413505d
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>10</td>
-<td>Com_GNG_TestCases_Admin.Tc_005_Tags@6ad82709</td></tr>
+<td>Com_GNG_TestCases_Admin.Tc_003_blog@2df3b89c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -173,25 +169,15 @@ Session ID: f187df87d77b7066f90ad2e64413505d
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Com_GNG_TestCases_Admin.Tc_005_Tags.blogTest()'><b>blogTest</b><br>Test class: Com_GNG_TestCases_Admin.Tc_005_Tags</td>
+<td title='Com_GNG_TestCases_Admin.Tc_003_blog.testing()'><b>testing</b><br>Test class: Com_GNG_TestCases_Admin.Tc_003_blog</td>
 <td></td>
-<td>24</td>
-<td>Com_GNG_TestCases_Admin.Tc_005_Tags@6ad82709</td></tr>
+<td>6</td>
+<td>Com_GNG_TestCases_Admin.Tc_003_blog@2df3b89c</td></tr>
 <tr>
-<td title='Com_GNG_TestCases_Admin.Tc_005_Tags.testing()'><b>testing</b><br>Test class: Com_GNG_TestCases_Admin.Tc_005_Tags</td>
+<td title='Com_GNG_TestCases_Admin.Tc_003_blog.blogTest()'><b>blogTest</b><br>Test class: Com_GNG_TestCases_Admin.Tc_003_blog</td>
 <td></td>
-<td>4</td>
-<td>Com_GNG_TestCases_Admin.Tc_005_Tags@6ad82709</td></tr>
-<tr>
-<td title='Com_GNG_TestCases_Admin.Tc_005_Tags.categoryTest()'><b>categoryTest</b><br>Test class: Com_GNG_TestCases_Admin.Tc_005_Tags</td>
-<td></td>
-<td>14</td>
-<td>Com_GNG_TestCases_Admin.Tc_005_Tags@6ad82709</td></tr>
-<tr>
-<td title='Com_GNG_TestCases_Admin.Tc_005_Tags.tagsTest()'><b>tagsTest</b><br>Test class: Com_GNG_TestCases_Admin.Tc_005_Tags</td>
-<td></td>
-<td>1</td>
-<td>Com_GNG_TestCases_Admin.Tc_005_Tags@6ad82709</td></tr>
+<td>26</td>
+<td>Com_GNG_TestCases_Admin.Tc_003_blog@2df3b89c</td></tr>
 </table><p>
 </body>
 </html>
