@@ -2192,3 +2192,28 @@
 2025-10-23 14:27:50,957 [main] INFO GroceNGoMart - all New data inered and click checkout button successfully
 2025-10-23 14:27:52,601 [main] INFO GroceNGoMart - Countinue shipping successfully
 2025-10-23 14:28:07,328 [main] INFO GroceNGoMart - login sucessfull
+2025-10-27 11:20:02,459 [main] INFO GroceNGoMart - Click Account successfully
+2025-10-27 11:20:03,616 [main] INFO GroceNGoMart - Click on login successfully
+2025-10-27 11:20:04,004 [main] INFO GroceNGoMart - username entered Successfully
+2025-10-27 11:20:04,243 [main] INFO GroceNGoMart - Password entered Successfully
+2025-10-27 11:20:18,587 [main] INFO GroceNGoMart - Login successfully
+2025-10-27 11:20:22,641 [main] INFO GroceNGoMart - Home page open successfully
+2025-10-27 11:20:25,233 [main] INFO GroceNGoMart - Email enter successfully
+2025-10-27 11:21:14,038 [main] INFO GroceNGoMart - All Feactugaries are print in concle successfully
+2025-10-27 11:21:16,905 [main] INFO GroceNGoMart - Click shop now button successfully
+2025-10-27 11:21:17,470 [main] INFO GroceNGoMart - Click shows 24 successfully
+2025-10-27 11:21:17,700 [main] INFO GroceNGoMart - Click sort by  button successfully
+2025-10-27 11:21:20,009 [main] INFO GroceNGoMart - Click Filter button successfully
+2025-10-27 11:21:21,253 [main] INFO GroceNGoMart - Click select Categorie checkboxes successfully
+2025-10-27 11:21:56,160 [main] INFO GroceNGoMart - Click select Brands checkboxes successfully
+2025-10-27 11:21:56,163 [main] INFO GroceNGoMart - Clear selected successfully
+2025-10-27 11:22:05,127 [main] INFO GroceNGoMart - click product successfully
+2025-10-27 11:22:07,452 [main] INFO GroceNGoMart - Click up successfully
+2025-10-27 11:22:09,639 [main] INFO GroceNGoMart - Click down successfully
+2025-10-27 11:22:09,778 [main] INFO GroceNGoMart - Click Add to cart buttons successfully
+2025-10-27 11:22:09,986 [main] INFO GroceNGoMart - Click BuyNow button successfully
+2025-10-27 11:22:22,251 [main] INFO GroceNGoMart - all data inered and click checkout button successfully
+2025-10-27 11:22:23,029 [main] INFO GroceNGoMart - Successufully move for Cart page
+2025-10-27 11:22:42,286 [main] INFO GroceNGoMart - all New data inered and click checkout button successfully
+2025-10-27 11:22:44,181 [main] INFO GroceNGoMart - Countinue shipping successfully
+2025-10-27 11:23:00,767 [main] INFO GroceNGoMart - login sucessfull
