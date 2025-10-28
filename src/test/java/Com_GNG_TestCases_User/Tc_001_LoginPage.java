@@ -27,6 +27,8 @@ public class Tc_001_LoginPage extends Base_Class{
 		Thread.sleep(3000);
 		gl.loginbtn();
 		log.info("Login successfully");
+	
+//	....
 	}
 
 

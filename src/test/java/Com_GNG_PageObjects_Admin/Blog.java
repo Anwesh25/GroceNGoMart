@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Blog {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Select sc;
 	
 	public Blog(WebDriver dr) {
