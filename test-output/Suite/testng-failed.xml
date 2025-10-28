@@ -8,13 +8,18 @@
     <parameter name="URL" value="https://qa-grocengomart.w3testing.com/"/>
     <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage">
+      <class name="Com_GNG_TestCases_User.Tc_006_OrdePlaced">
         <methods>
+          <include name="CShipping"/>
+          <include name="Groc_UserLogin"/>
           <include name="CheckoutProduct"/>
+          <include name="shopPage"/>
+          <include name="Productpage"/>
           <include name="CloseApplication"/>
+          <include name="Home_Functionalityes"/>
           <include name="OpenAppliction"/>
         </methods>
-      </class> <!-- Com_GNG_TestCases_User.Tc_005_CheckoutPage -->
+      </class> <!-- Com_GNG_TestCases_User.Tc_006_OrdePlaced -->
     </classes>
   </test> <!-- User(failed) -->
 </suite> <!-- Failed suite [Suite] -->
