@@ -3,17 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com_GNG_TestCases_User.Tc_005_CheckoutPage">
+      <class name="Com_GNG_TestCases_User.Tc_007_Groc_Stores">
         <methods>
-          <include name="OpenAppliction"/>
-          <include name="CloseApplication"/>
-          <include name="Groc_UserLogin"/>
+          <include name="CShipping"/>
           <include name="shopPage"/>
           <include name="CheckoutProduct"/>
+          <include name="Groc_UserLogin"/>
+          <include name="GrocStores"/>
           <include name="Productpage"/>
+          <include name="CloseApplication"/>
           <include name="Home_Functionalityes"/>
+          <include name="OpenAppliction"/>
         </methods>
-      </class> <!-- Com_GNG_TestCases_User.Tc_005_CheckoutPage -->
+      </class> <!-- Com_GNG_TestCases_User.Tc_007_Groc_Stores -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
