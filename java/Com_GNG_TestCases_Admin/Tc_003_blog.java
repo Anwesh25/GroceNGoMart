@@ -13,8 +13,11 @@ public Blog bg;
 	public void blogTest() throws InterruptedException {
 		bg=new Blog(driver);
 		bg.searching();
+		log.info("searched successfully");
 		bg.filter();
+		log.info("Applied filter successfully");
 		bg.reload();
+		log.info("Reloaded successfully");
 		//bg.deleteAction();
 		
 	}

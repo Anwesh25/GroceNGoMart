@@ -2192,6 +2192,7 @@
 2025-10-23 14:27:50,957 [main] INFO GroceNGoMart - all New data inered and click checkout button successfully
 2025-10-23 14:27:52,601 [main] INFO GroceNGoMart - Countinue shipping successfully
 2025-10-23 14:28:07,328 [main] INFO GroceNGoMart - login sucessfull
+<<<<<<< HEAD
 2025-10-27 11:20:02,459 [main] INFO GroceNGoMart - Click Account successfully
 2025-10-27 11:20:03,616 [main] INFO GroceNGoMart - Click on login successfully
 2025-10-27 11:20:04,004 [main] INFO GroceNGoMart - username entered Successfully
@@ -2217,3 +2218,19 @@
 2025-10-27 11:22:42,286 [main] INFO GroceNGoMart - all New data inered and click checkout button successfully
 2025-10-27 11:22:44,181 [main] INFO GroceNGoMart - Countinue shipping successfully
 2025-10-27 11:23:00,767 [main] INFO GroceNGoMart - login sucessfull
+=======
+2025-10-27 16:14:15,415 [main] INFO GroceNGoMart - Click Account successfully
+2025-10-27 16:14:16,892 [main] INFO GroceNGoMart - Click on login successfully
+2025-10-27 16:14:17,041 [main] INFO GroceNGoMart - username entered Successfully
+2025-10-27 16:14:17,139 [main] INFO GroceNGoMart - Password entered Successfully
+2025-10-27 16:14:26,128 [main] INFO GroceNGoMart - Home page open successfully
+2025-10-27 16:14:28,380 [main] INFO GroceNGoMart - Email enter successfully
+2025-10-27 16:15:17,595 [main] INFO GroceNGoMart - login sucessfull
+2025-10-27 16:15:27,387 [main] INFO GroceNGoMart - page created successfully
+2025-10-27 16:15:37,914 [main] INFO GroceNGoMart - searched successfully
+2025-10-27 16:15:51,481 [main] INFO GroceNGoMart - Applied filter successfully
+2025-10-27 16:15:51,534 [main] INFO GroceNGoMart - Reloaded successfully
+2025-10-27 16:15:52,675 [main] INFO GroceNGoMart - Navigated to successfully
+2025-10-27 16:16:06,271 [main] INFO GroceNGoMart - Category created successfully
+2025-10-27 16:16:10,266 [main] INFO GroceNGoMart - tag created successfully
+>>>>>>> main
