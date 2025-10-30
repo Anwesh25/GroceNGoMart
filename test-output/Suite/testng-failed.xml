@@ -4,22 +4,21 @@
   <listeners>
     <listener class-name="Com_GNG_Utilities.Reports"/>
   </listeners>
-  <test thread-count="5" name="User(failed)">
-    <parameter name="URL" value="https://qa-grocengomart.w3testing.com/"/>
+  <test thread-count="5" name="Admin(failed)">
+    <parameter name="URL" value="https://qa-grocengomart.w3testing.com/admin/login"/>
     <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="Com_GNG_TestCases_User.Tc_006_OrdePlaced">
+      <class name="Com_GNG_TestCases_Admin.Tc_005_Tags">
         <methods>
-          <include name="CShipping"/>
-          <include name="Groc_UserLogin"/>
-          <include name="CheckoutProduct"/>
-          <include name="shopPage"/>
-          <include name="Productpage"/>
+          <include name="blogTest"/>
+          <include name="tagsTest"/>
+          <include name="testing"/>
           <include name="CloseApplication"/>
-          <include name="Home_Functionalityes"/>
+          <include name="categoryTest"/>
+          <include name="createTest"/>
           <include name="OpenAppliction"/>
         </methods>
-      </class> <!-- Com_GNG_TestCases_User.Tc_006_OrdePlaced -->
+      </class> <!-- Com_GNG_TestCases_Admin.Tc_005_Tags -->
     </classes>
-  </test> <!-- User(failed) -->
+  </test> <!-- Admin(failed) -->
 </suite> <!-- Failed suite [Suite] -->
